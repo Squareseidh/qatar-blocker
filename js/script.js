@@ -1,6 +1,7 @@
 window.onload = replacer
 
 console.log('Qatar blocker Active 2')
+console.log('https://soutenir.amnesty.fr/b?frequency=once&amount=3000')
 
 String.prototype.replaceArray = function (find, replace) {
  let replaceString = this
