@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Qatar Blocker",
+  "description": "You love football, the game, the players, your team! But you’re not so happy with the organising country? We get it! That’s why we created the Qatar Blocker. From now on, everytime the name of the country, cities or stadiums appear, they will be blacked out.",
+  "version": "0.0.1",
+  "author": "Nicolas FABRI",
+  "browser_action": {
+    "default_icon": "qatar-blocker.png",
+    "default_title": "Qatar Blocker"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/script.js", "js/jquery.min.js"],
+      "exclude_globs": [ "*options*"]
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "permissions": ["activeTab", "storage"]
+}
