@@ -17,8 +17,8 @@ String.prototype.replaceArray = function (find, replace) {
 }
 
 function replacer () {
- let bannedWords = ['Qatar', 'Coupe du monde', 'Lusail', 'Al Khor', 'Doha', 'Iconic Stadium', 'Al Bayt Stadium', 'Stadium 974', 'Al Thumama Stadium', 'Al Rayyan', 'Khalifa International Stadium', 'Education City Stadium', 'Ahmad bin Ali Stadium', 'Al Wakrah', 'Al Janoub Stadium']
- let replaceWords = ['Q•••r', 'C•••e du monde', 'Lu••l', 'Al K••r', 'D•ha', 'I••••• Stadium', 'Al B••• Stadium', 'Stadium +4000', 'Al T••••• Stadium', 'Al R••••', 'K•••• In••••• Stadium', 'E•••• C•• Stadium', 'A••• •• A•• Stadium', 'Al W••••', 'Al J•••• Stadium']
+ let bannedWords = ['Qatar', 'Coupe du monde', 'Lusail', 'Al Khor', 'Doha', 'Iconic Stadium', 'Al Bayt Stadium', 'Stadium 974', 'Al Thumama Stadium', 'Al Rayyan', 'Khalifa International Stadium', 'Education City Stadium', 'Ahmad bin Ali Stadium', 'Al Wakrah', 'Al Janoub Stadium', 'Al Rihla', 'Hayya Hayya']
+ let replaceWords = ['Q•••r', 'C•••e du monde', 'Lu••l', 'Al K••r', 'D•ha', 'I••••• Stadium', 'Al B••• Stadium', 'Stadium +4000', 'Al T••••• Stadium', 'Al R••••', 'K•••• In••••• Stadium', 'E•••• C•• Stadium', 'A••• •• A•• Stadium', 'Al W••••', 'Al J•••• Stadium', 'Al R••••', 'H••• H•••']
 
  const elements = document.getElementsByTagName('*')
 
