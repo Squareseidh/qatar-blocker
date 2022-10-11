@@ -87,7 +87,6 @@ async function replacer () {
  }
 
  if (nbWordsReplaced > 0) {
-  console.log("on passe la")
   let post = JSON.stringify({
    nbWordsReplaced: nbWordsReplaced
   })
