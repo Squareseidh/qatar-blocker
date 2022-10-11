@@ -4,6 +4,12 @@
   "description": "You love football, the game, the players, your team! But you’re not so happy with the organising country? We get it! That’s why we created the Qatar Blocker. From now on, everytime the name of the country, cities or stadiums appear, they will be blacked out.",
   "version": "0.0.1",
   "author": "Nicolas FABRI",
+  "icons": {
+    "16": "/img/icons/icon.png",
+    "32": "/img/icons/icon@2x.png",
+    "48": "/img/icons/icon@3x.png",
+    "128": "/img/icons/icon@8x.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

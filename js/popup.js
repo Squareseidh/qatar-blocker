@@ -14,6 +14,7 @@ async function onLoad () {
  const price = Math.round(nbWordsReplaced * 0.10 * 100) / 100;
 
  document.getElementById('number').innerText = nbWordsReplaced
+ document.getElementById('calculate_number').innerText = nbWordsReplaced
  document.getElementById('donation_price').value = price
 }
 
