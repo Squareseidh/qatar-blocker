@@ -57,12 +57,10 @@
             color: white;
             border: none;
             padding: 6px 13px;
-            display: flex;
-            gap: 16px;
             cursor: pointer;
         }
 
-        button span {
+        button {
             font-weight: 700;
             font-size: 20px;
             line-height: 30px;
@@ -78,16 +76,21 @@
             right: 36px;
             margin-top: 8px
         }
+
+        #donation_button {
+            text-align: center;
+            width: 100%
+        }
     </style>
 </head>
 <body>
 <p id="info">You read <strong id="number">0</strong> times about the worldcup</p>
-<p id="calculate"><span class="number" id="calculate_number"></span><span id="cross">X</span><span class="number">0,10€</span>
+<p id="calculate"><span class="number" id="calculate_number"></span><span id="cross">X</span><span class="number">0,01€</span>
 </p>
 <div>
     <input type="number" min="1" value="0" id="donation_price">
     <span id="currency">€</span>
 </div>
-<button id="donation_button"><span>Donate</span><img src="./img/amnesty_icon.png" alt="amnesty icon"></button>
+<button id="donation_button">Donate</button>
 </body>
 </html>

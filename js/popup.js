@@ -11,7 +11,7 @@ async function onLoad () {
   nbWordsReplaced = 0
  }
 
- const price = Math.round(nbWordsReplaced * 0.10 * 100) / 100;
+ const price = Math.round(nbWordsReplaced * 0.1 * 100) / 100;
 
  document.getElementById('number').innerText = nbWordsReplaced
  document.getElementById('calculate_number').innerText = nbWordsReplaced
